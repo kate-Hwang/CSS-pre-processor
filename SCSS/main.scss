@@ -2,6 +2,7 @@
 //css 전처리기
 //반복문 조건문 if등 매개변수 계산식가능
 
-$color:#000;
+$color:green;
 
-body {background: $color;}
+body {background-color: $color;}
+h1 {color : $color}
