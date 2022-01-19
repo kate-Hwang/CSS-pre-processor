@@ -18,17 +18,29 @@
 //         clear: both;
 //     }
 // }
-$color: red; //매개변수
-@mixin box ($w,$h) { 
-    width: $w;
-    height: $h;
-
-}
-div { @include box(300px, 500px); border: 2px solid red} //수치는 꼭 넣을것
+//$color: red; //매개변수
+//@mixin box ($w,$h) { width: $w;height: $h;}
+//div { @include box(300px, 500px); border: 2px solid red} //수치는 꼭 넣을것
 // p {@include border(pink);}
 // span{@include border(rgb(49, 8, 8));}
 // p { float: left;
 //     @include test(); }
 
-//매개변수 활용
+//선택자 정리하기
+//들여쓰기
+.a{ color: red; 
+    ul{border: 3px solid green;
+        > li {  
+            background: pink;
+            a{
+                text-decoration: none;
+                &:hover {color: goldenrod;}
+                &.ddd { font-size: 40px; }
+            }
+            .ddd{ text-indent: 10px; font-weight: 700;}
+            &:last-child{ border: 1px dotted yellow; }
+        }
+    }
+}
+
 

@@ -1,6 +1,33 @@
-div {
-  width: 300px;
-  height: 500px;
-  border: 2px solid red;
+.a {
+  color: red;
+}
+
+.a ul {
+  border: 3px solid green;
+}
+
+.a ul > li {
+  background: pink;
+}
+
+.a ul > li a {
+  text-decoration: none;
+}
+
+.a ul > li a:hover {
+  color: goldenrod;
+}
+
+.a ul > li a.ddd {
+  font-size: 40px;
+}
+
+.a ul > li .ddd {
+  text-indent: 10px;
+  font-weight: 700;
+}
+
+.a ul > li:last-child {
+  border: 1px dotted yellow;
 }
 /*# sourceMappingURL=main.css.map */
