@@ -28,10 +28,12 @@
 
 //선택자 정리하기
 //들여쓰기
+//상위참조속성
 .a{ color: red; 
     ul{border: 3px solid green;
         > li {  
             background: pink;
+            float: left;
             a{
                 text-decoration: none;
                 &:hover {color: goldenrod;}
