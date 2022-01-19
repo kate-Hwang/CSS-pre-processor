@@ -8,23 +8,58 @@
 //     transform: translate(-50%,-50%);
 // }
 
-@mixin position($x, $y, $z, $w) {
-    position: absolute;
-    left: $x;
-    top: $y;
-    z-index: $z;
-    width: $w;
-    @if $x == 50% {
-        transform: translateX(-50%);
-    }@else if $y == 50% {
-        transform: translateY(-50%);
-    }@else if $x == 50% and $y == 50% {
-        transform: translate(-50%, -50%);
+// @mixin position($x, $y, $z, $w) {
+//     position: absolute;
+//     left: $x;
+//     top: $y;
+//     z-index: $z;
+//     width: $w;
+//     @if $x == 50% {
+//         transform: translateX(-50%);
+//     }@else if $y == 50% {
+//         transform: translateY(-50%);
+//     }@else if $x == 50% and $y == 50% {
+//         transform: translate(-50%, -50%);
+//     }
+// }
+
+// div{
+//     @include position(50px, 50%, 0, 300px);
+//     height: 100px;
+//     border: 3px solid rgb(228, 162, 48);
+//     display: flexbox;
+// }
+//name @extend
+//@extend는 선택자를 강제적으로 모두 묶어서 속성을 준다.
+//ex).a, .b, .c {font-size: 22px;color: blueviolet;}
+
+
+
+// %name { font-size: 22px; color: blueviolet; }
+// .fs20 {font-size: 20px;}
+// .a { @extend %name; @include name(bold, grey); }
+// .b { @extend .fs20; }
+// .c { @extend %name; }
+
+//include랑 친구
+// @mixin name() {
+//     font-weight: $bold; background: $color;
+// }
+
+.visual {background: pink; height: 300px;
+    div { @extend %m0auto;
+        background: rgba(0,0,0,.5); height: 300px;
+    }
+}
+.main {background: purple; height: 300px; 
+    div { @extend %m0auto;
+        background: rgba(0,0,0,.5); height: 300px;
+    }
+}
+.footer { background: orange; height: 150px; 
+    div { @extend %m0auto;
+        background: rgba(0,0,0,.5); height: 150px;
     }
 }
 
-div{
-    @include position(50px, 50%, 0, 300px);
-    height: 100px;
-    border: 3px solid rgb(228, 162, 48);
-}
+%m0auto { width: 1200px; margin: 0 auto; } //margin 0 auto 를 매개변수로 지정해서 @extend를 준다.
