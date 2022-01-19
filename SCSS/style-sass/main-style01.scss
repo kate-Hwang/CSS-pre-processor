@@ -1,0 +1,30 @@
+//@mixin
+
+// @mixin box_center($w) {
+//     position: absolute;
+//     left: 50%;
+//     top: 50%;
+//     width: $w;
+//     transform: translate(-50%,-50%);
+// }
+
+@mixin position($x, $y, $z, $w) {
+    position: absolute;
+    left: $x;
+    top: $y;
+    z-index: $z;
+    width: $w;
+    @if $x == 50% {
+        transform: translateX(-50%);
+    }@else if $y == 50% {
+        transform: translateY(-50%);
+    }@else if $x == 50% and $y == 50% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+div{
+    @include position(50px, 50%, 0, 300px);
+    height: 100px;
+    border: 3px solid rgb(228, 162, 48);
+}
