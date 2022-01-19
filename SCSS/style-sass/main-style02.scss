@@ -1,0 +1,26 @@
+//@mixin 응용하기
+
+//clear
+
+// @mixin clear{
+//     &:after { content: ""; 
+//         display: block; clear:both; }
+// }
+
+// .a { 
+//     border: 3px solid orange; 
+//     background: green;
+//     @include clear;
+//     > div{
+//         float: left;
+//     }
+// }
+
+//말줄임표
+
+@mixin ellipsis {
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
