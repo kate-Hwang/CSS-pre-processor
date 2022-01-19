@@ -61,5 +61,5 @@
         background: rgba(0,0,0,.5); height: 150px;
     }
 }
-
+//@extend는 쉼표구분자를 이용
 %m0auto { width: 1200px; margin: 0 auto; } //margin 0 auto 를 매개변수로 지정해서 @extend를 준다.
