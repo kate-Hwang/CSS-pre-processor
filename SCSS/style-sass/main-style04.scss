@@ -1,0 +1,50 @@
+/*
+여러줄주석
+*/
+//한줄주석
+//변수선언-반복되는 코드들을 일관성 있게 전환시켜줄 수 있는 것.
+// 전역변수, 지역변수, 매개변수
+
+//변수를 줄때는 영문,영문+숫자,영문특수문자숫자,대소문자
+$gray:#c9c9c9;
+$white:#fff;
+$blue: blue;
+$yellow: orange;
+//빈복되는 작업을 빠르게 처리할 수 있다.
+
+.btn1{
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: $gray;
+    border: 2px solid $gray;
+    //마우스를 올렸을때
+    &:hover{
+        border-radius: 9px;
+        background-color: $gray;
+        color: $white;
+    }
+}
+.btn2{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid $yellow;
+    background: $blue;
+    color: $gray;
+
+    &:hover{
+        color: $yellow;
+        background: $gray;
+        border-radius: 9px;
+        border: 2px solid $yellow;
+        width: 200px;
+    }
+}
