@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main-style03.css"}
+{
+    "version": 3,
+    "mappings": "AA+BA,AAAA,GAAG,CAAC;EAAE,KAAK,EAAE,KAAK;EAAE,MAAM,EAAC,KAAK;EAAE,UAAU,EAAE,IAAI;EAd9C,QAAQ,EAAE,QAAQ;EAElB,GAAG,EAaoB,GAAG;EAZ1B,OAAO,EAYqB,CAAC;EALzB,SAAS,EAAE,gBAAgB;CAMlC",
+    "sources": [
+        "main-style03.scss"
+    ],
+    "names": [],
+    "file": "main-style03.css"
+}
