@@ -18,9 +18,26 @@
 
 //말줄임표
 
-@mixin ellipsis {
+@mixin ellipsis ($w) {
+    width: $w;
     overflow: hidden;
     display: block;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+@mixin ellipsis2 ($line, $w , $h) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    width: $w;
+    height: $h;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.a{ @include ellipsis(150px); }
+.b{ @include ellipsis2(3, 120px, 77px ) }
+//말줄임표 활용하기
+//큰 프로젝트에서는 mixin파일을 따로 만들어서 
+//다른 사스파일과 호환해서 사용할 수 있도록 활용한다.

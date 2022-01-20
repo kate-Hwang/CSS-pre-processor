@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=main-style02.css.map */
+.a {
+  width: 150px;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.b {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  width: 120px;
+  height: 77px;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=main-style02.css.map */
