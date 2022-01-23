@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+.list li {text-indent: 30px; background: no-repeat 0 0 / 20px auto; }
+
+@for $i from 1 to 6 {
+    //반복해서 1-5까지 반복할 것이다.
+    //숫자로만 지정가능하다.
+    //반복적으로 사용가능하다.
+    //이미지명 클래스명을 잘 정해야 한다.
+    .list li.icon#{$i} { background-image: url(icon1#{$i}.png) }
+    .list li:nth-child(#{$i}):before { content: "제목#{$i}"; }
+}

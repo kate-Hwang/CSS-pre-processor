@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=main-style05.css.map */
+@charset "UTF-8";
+.list li {
+  text-indent: 30px;
+  background: no-repeat 0 0 / 20px auto;
+}
+
+.list li.icon1 {
+  background-image: url(icon11.png);
+}
+
+.list li:nth-child(1):before {
+  content: "제목1";
+}
+
+.list li.icon2 {
+  background-image: url(icon12.png);
+}
+
+.list li:nth-child(2):before {
+  content: "제목2";
+}
+
+.list li.icon3 {
+  background-image: url(icon13.png);
+}
+
+.list li:nth-child(3):before {
+  content: "제목3";
+}
+
+.list li.icon4 {
+  background-image: url(icon14.png);
+}
+
+.list li:nth-child(4):before {
+  content: "제목4";
+}
+
+.list li.icon5 {
+  background-image: url(icon15.png);
+}
+
+.list li:nth-child(5):before {
+  content: "제목5";
+}
+/*# sourceMappingURL=main-style05.css.map */
