@@ -1,0 +1,24 @@
+.ico_book {
+  background: url(images/book.gif) no-repeat;
+}
+
+.ico_icon {
+  background: url(images/icon.gif) no-repeat;
+}
+
+.ico_icons {
+  background: url(images/icons.gif) no-repeat;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+/*# sourceMappingURL=main-style06.css.map */
