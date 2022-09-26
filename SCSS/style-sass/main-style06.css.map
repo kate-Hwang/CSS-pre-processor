@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACI,AAAA,SAAS,CAAG;EACR,UAAU,EAAC,oBAAY,CAAC,SAAS;CAEpC;;AAHD,AAAA,SAAS,CAAG;EACR,UAAU,EAAC,oBAAY,CAAC,SAAS;CAEpC;;AAHD,AAAA,UAAU,CAAE;EACR,UAAU,EAAC,qBAAY,CAAC,SAAS;CAEpC;;AAUD,AAAA,EAAE,CAAM;EACJ,SAAS,EAPV,IAAI;CAQN;;AAFD,AAAA,EAAE,CAAM;EACJ,SAAS,EANV,IAAI;CAON;;AAFD,AAAA,EAAE,CAAM;EACJ,SAAS,EALV,IAAI;CAMN",
-    "sources": [
-        "main-style06.scss"
-    ],
-    "names": [],
-    "file": "main-style06.css"
-}
+{"version":3,"sources":["main-style06.scss","main-style06.css"],"names":[],"mappings":"AACI;EACI,0CAAA;ACAR;;ADDI;EACI,0CAAA;ACIR;;ADLI;EACI,2CAAA;ACQR;;ADII;EACI,eARE;ACOV;;ADAI;EACI,eARE;ACWV;;ADJI;EACI,eARE;ACeV","file":"main-style06.css"}

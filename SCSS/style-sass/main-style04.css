@@ -13,7 +13,6 @@
   color: #c9c9c9;
   border: 2px solid #c9c9c9;
 }
-
 .btn1:hover {
   border-radius: 9px;
   background-color: #c9c9c9;
@@ -31,12 +30,10 @@
   background: blue;
   color: #c9c9c9;
 }
-
 .btn2:hover {
   color: orange;
   background: #c9c9c9;
   border-radius: 9px;
   border: 2px solid orange;
   width: 200px;
-}
-/*# sourceMappingURL=main-style04.css.map */
+}/*# sourceMappingURL=main-style04.css.map */

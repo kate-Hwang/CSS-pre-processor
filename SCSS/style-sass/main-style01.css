@@ -2,7 +2,6 @@
   background: pink;
   height: 300px;
 }
-
 .visual div {
   background: rgba(0, 0, 0, 0.5);
   height: 300px;
@@ -12,7 +11,6 @@
   background: purple;
   height: 300px;
 }
-
 .main div {
   background: rgba(0, 0, 0, 0.5);
   height: 300px;
@@ -22,7 +20,6 @@
   background: orange;
   height: 150px;
 }
-
 .footer div {
   background: rgba(0, 0, 0, 0.5);
   height: 150px;
@@ -31,5 +28,4 @@
 .visual div, .main div, .footer div {
   width: 1200px;
   margin: 0 auto;
-}
-/*# sourceMappingURL=main-style01.css.map */
+}/*# sourceMappingURL=main-style01.css.map */

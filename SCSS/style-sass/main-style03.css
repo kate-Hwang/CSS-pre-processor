@@ -5,7 +5,5 @@ div {
   position: absolute;
   top: 50%;
   z-index: 2;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-/*# sourceMappingURL=main-style03.css.map */
+  transform: translateY(-50%);
+}/*# sourceMappingURL=main-style03.css.map */

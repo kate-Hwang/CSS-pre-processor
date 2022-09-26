@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .list li {
   text-indent: 30px;
-  background: no-repeat 0 0 / 20px auto;
+  background: no-repeat 0 0/20px auto;
 }
 
 .list li.icon1 {
@@ -42,5 +42,4 @@
 
 .list li:nth-child(5):before {
   content: "제목5";
-}
-/*# sourceMappingURL=main-style05.css.map */
+}/*# sourceMappingURL=main-style05.css.map */
